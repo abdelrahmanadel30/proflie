@@ -1,0 +1,465 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*####################### start page profile##############################################*/
+
+@font-face {
+    font-family: Cairo-Light;
+    src: url(../fonts/Cairo-Light.ttf);
+}
+
+@font-face {
+    font-family: Cairo-Bold;
+    src: url(../fonts/Cairo-Bold.ttf);
+}
+
+@font-face {
+    font-family: Cairo-Regular;
+    src: url(../fonts/Cairo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Cairo-SemiBold;
+    src: url(../fonts/Cairo-SemiBold.ttf);
+}
+.top-navbar{
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+      font-family: Cairo-Regular;
+}
+
+/*  ############################################################*/
+.proflie {
+    padding-top: 5%;
+    font-family: Cairo-Regular;
+}
+
+.proflie .user {
+    font-family: Cairo-SemiBold;
+    padding-bottom: 4%;
+}
+
+.proflie .user .name-user {
+    color: #343434;
+}
+
+.proflie .user .email-user {
+    color: #bacc04;
+}
+
+.proflie .user .user-icon {
+    color: #bacc04;
+    font-size: 25pt;
+    margin-top: 6%;
+}
+
+
+/* ##########################  start style div list-options############################# */
+
+.proflie .list-options {
+    padding: 0px;
+    box-shadow: 0px 2px 4px #ccc;
+}
+
+.proflie .list-options .option {
+    list-style: none;
+    padding: 4%;
+    border-bottom: 1px solid #ddd;
+    transition: all ease-out .3s;
+}
+
+.proflie .list-options .option:hover {
+    background-color: #343434;
+}
+
+.proflie .list-options .option:hover a,
+.proflie .list-options .option:hover i {
+    color: #b8cd06;
+}
+
+.proflie .list-options .option a {
+    text-decoration: none;
+    color: #222;
+    font-size: 18px;
+    margin-left: 5%;
+}
+
+.proflie .list-options .option i {
+    font-size: 22px;
+    color: #b8cd06;
+}
+
+.proflie .list-options .option .active-icon {
+    color: #b8cd06;
+}
+
+.proflie .list-options .active {
+    background-color: #343434;
+}
+
+
+/* ##########################  end style div list-options ############################# */
+
+
+/* ##########################  start style div oreder ############################# */
+
+.orders .head {
+    font-family: Cairo-SemiBold;
+}
+
+.orders .info-product {
+    background-color: #bacc04;
+    padding: 5%;
+    border-radius: 20px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.orders .info-product .link {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 19px;
+    font-family: Cairo-Bold;
+    margin-left: 3%;
+}
+
+.orders .info-product .info-icon {
+    color: #FFF;
+}
+
+
+/* ##########################  end style div oreder  ############################# */
+
+
+/* ##########################  start style div user-reset  ############################# */
+
+.user-reset {
+    border: 1px solid #bacc04;
+    margin-top: 4%;
+    padding: 2%;
+}
+
+.user-reset .data-oreder .data {
+    display: block;
+    font-family: Cairo-Regular;
+    font-size: 18px;
+}
+
+.user-reset .data-oreder .blod {
+    font-weight: bold;
+}
+
+.user-reset .data-oreder .more-detail {
+    text-decoration: none;
+}
+
+.user-reset .data-oreder .more-detail {
+    color: #bacc04;
+    font-size: 17px;
+}
+
+.user-reset .delivery-process {
+    text-align: center;
+    margin-top: 3%;
+    position: relative;
+    border-top: 1px solid #bacc04;
+}
+
+.user-reset .delivery-process p {
+    text-align: left;
+    padding-top: 2%;
+}
+
+.user-reset .delivery-process .stepts-process {
+    padding: 1%;
+    background-color: #343434;
+    ;
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    z-index: -1;
+}
+
+.user-reset .delivery-process .rate {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #bacc04;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+/* ##########################  end style div user-reset  ############################# */
+
+
+/* ##########################  star style div  product-details  ############################# */
+
+.product-details {
+    margin-top: 4%;
+}
+
+.product-details .product-Describe .iphone {
+    width: 100%;
+    overflow: hidden;
+}
+
+.product-details .product-Describe .about-phone {
+    font-size: 18px;
+    font-family: Cairo-SemiBold;
+    color: #343434;
+}
+
+.product-details .product-Describe .anthor-style {
+    color: #bacc04;
+}
+
+.product-details .product-Describe .track {
+    width: 100%;
+    padding: 3%;
+    color: #fff;
+    background-color: #bacc04;
+    font-family: Cairo-SemiBold;
+    border: none;
+    font-size: 23px;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+.product-details .product-Describe span {
+    display: inline-block;
+    color: #343434;
+}
+
+.product-details .product-Describe .blod {
+    color: #bacc04;
+    font-weight: bold;
+}
+
+
+/* ##########################  star style div  product-details  ############################# */
+
+
+/*  ###########################################################################*/
+
+
+/*#######################start div Wish-list  ################################   */
+
+.Wish-list,
+.shipping-addresses {
+    margin-top: 2%;
+}
+
+.Wish-list .wish-head,
+.shipping-head {
+    font-family: Cairo-SemiBold;
+}
+
+.Wish-list .new-list,
+.new-addresses {
+    width: 100%;
+    padding: 3%;
+    color: #fff;
+    background-color: #bacc04;
+    font-family: Cairo-SemiBold;
+    border: none;
+    font-size: 23px;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+.Wish-list .wish-product {
+    padding: 3%;
+    background-color: #343434;
+    text-align: left;
+    font-family: Cairo-Regular;
+    color: #fff;
+    margin-top: 5%;
+    border-radius: 15px;
+    font-size: 18px;
+    position: relative;
+}
+
+.Wish-list .wish-product .icon-right {
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    right: 0px;
+    margin-right: 4%;
+    margin-top: 1%;
+}
+
+
+/*#######################end div Wish-list  ################################   */
+
+
+/*####################### start div shipping-addresses  ################################   */
+
+.shipping-addresses .map-user {
+    padding: 5%;
+    margin-top: 5%;
+    border-radius: 15px;
+    background-color: #343434;
+}
+
+.shipping-addresses .map-user .user-info {
+    display: block;
+    color: #fff;
+    font-size: 17px;
+}
+
+.shipping-addresses .map-user .sepcai-style {
+    display: inline-block;
+}
+
+.shipping-addresses .map-user .blod {
+    color: #bacc04;
+}
+
+
+/*####################### end  div shipping-addresses  ################################   */
+
+
+/* £££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££ */
+
+
+/*  ############################start div Account-sitting########################################*/
+
+.account-sitting {}
+
+.account-sitting .info-account {
+    margin-top: 3%;
+    border: 1px solid #bacc04;
+    border-radius: 5px;
+}
+
+.account-sitting .info-account .account-head {
+    font-family: Cairo-SemiBold;
+    font-size: 25px;
+}
+
+.account-sitting .info-account .change-account {
+    padding: 4%;
+    border-bottom: 1px solid #bacc04;
+}
+
+.account-sitting .info-account .change-account .about-user {
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.account-sitting .info-account .change-account span {
+    font-weight: normal;
+}
+
+.account-sitting .info-account .change-account .edit {
+    padding: 5%;
+    font-weight: bold;
+    color: #fff;
+    background-color: #bacc04;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 20px;
+    font-family: Cairo-Bold;
+    margin-top: 10%;
+}
+
+.account-sitting .info-account .change-account .communcatios {
+    font-family: Cairo-SemiBold;
+    font-size: 20px;
+}
+
+.account-sitting .info-account .change-account .manage {
+    font-family: Cairo-Light;
+    font-size: 18px;
+}
+
+.account-sitting .info-account .change-account .image-personal {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.account-sitting .info-account .change-account .souq {
+    margin-top: 4%;
+    font-size: 18px;
+    font-family: Cairo-Regular;
+}
+
+.account-sitting .info-account .change-account .share {
+    margin-top: 4%;
+    display: inline-block;
+    ;
+}
+
+.account-sitting .info-account .change-account .share .sharing {
+    font-family: Cairo-Bold;
+}
+
+.account-sitting .info-account .change-account .share .option {
+    display: inline-block;
+}
+
+
+/*  ############################end  div Account-sitting########################################*/
+
+
+/*  ####################################################################################*/
+
+
+/* ############################start div recommend####################################*/
+
+.recommend {
+    margin-top: 3%;
+}
+
+.recommend h3 {
+    text-align: left;
+    font-family: Cairo-Bold;
+}
+
+.recommend .massage-text {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    border: 1px solid #bacc04;
+    text-align: center;
+    position: relative;
+    margin-top: 4%;
+}
+
+.recommend .massage-text .sms {
+    font-family: Cairo-Regular;
+    font-size: 25px;
+}
+
+.recommend .massage-text .buy-now {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 2%;
+    background-color: #bacc04;
+    border-radius: 22px;
+    font-family: Cairo-Bold;
+    width: 30%;
+    border: none;
+    position: absolute;
+    left: 0px;
+    top: 60%;
+}
+
+
+/* ####################### end div recommen ##################################*/
+
+
+/*############# end page profile##############################################*/
